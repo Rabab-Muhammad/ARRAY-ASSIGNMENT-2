@@ -18,7 +18,7 @@ console.log(numbers,"Numbers");
 // variable named thirdFruit.
 
 let thirdFruit:string[] = ['apple','banana','mango','orange'];
-console.log(fruits[3],`:Removed Index 3 Fruit`);
+console.log(fruits[3],`:Removed Index [3] Fruit`);
 
 //----------------------- Question 4---------------------------//
 // Change the second element of the numbers array to 25.
@@ -64,7 +64,7 @@ console.log(addFirstFruit,"Added First Fruit");
 
 let removeFruits:string[] = ['kiwi','banana','mango','orange'];
 removeFruits.splice(1,2);
-console.log(removeFruits,"Removed 2 Fruits From Index 1");
+console.log(removeFruits,"Removed 2 Fruits From Index [1]");
 
 //------------------ Question 10----------------------------------//
 // Insert the elements "pineapple" and "pear" at index 2 of the
@@ -72,7 +72,7 @@ console.log(removeFruits,"Removed 2 Fruits From Index 1");
 
 let addFruits:string[] = ['kiwi','orange'];
 addFruits.splice(2,0,"pinaple","pear");
-console.log(addFruits,"Insert 2 Fruits at Index 2");
+console.log(addFruits,"Insert 2 Fruits at Index [2]");
 
 //------------------ Question 11------------------------------------//
 // Create a new array named citrusFruits that contains the first
