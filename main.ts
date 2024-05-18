@@ -25,7 +25,7 @@ console.log(fruits[3],`:Removed Index [3] Fruit`);
 
 let changeNumber:number[] = [10,20,30,40];
 changeNumber[2] = 25;
-console.log(changeNumber,"Changed index [2] Numbers");
+console.log(changeNumber,"Changed index [2] Number");
 
 // --------------------- Question 5--------------------------------------//
 //Add the element "grape" to the end of the fruits array using the method.
