@@ -14,41 +14,41 @@ console.log(numbers, "Numbers");
 // Access the third element of the fruits array and assign it to a
 // variable named thirdFruit.
 let thirdFruit = ['apple', 'banana', 'mango', 'orange'];
-console.log(fruits[3], `:Remove Index 3 Fruit`);
+console.log(fruits[3], `:Removed Index 3 Fruit`);
 //----------------------- Question 4---------------------------//
 // Change the second element of the numbers array to 25.
 let changeNumber = [10, 20, 30, 40];
 changeNumber[2] = 25;
-console.log(changeNumber, "Change index [2] Numbers");
+console.log(changeNumber, "Changed index [2] Numbers");
 // --------------------- Question 5--------------------------------------//
 //Add the element "grape" to the end of the fruits array using the method.
 let addFruit = ['apple', 'banana', 'mango', 'orange'];
 addFruit.push('watermelon');
-console.log(addFruit, "Add Last Fruit");
+console.log(addFruit, "Added Last Fruit");
 //--------------------- Question 6-----------------------//
 // Remove the last element from the fruits array using the
 // method and assign it to a variable named lastFruit.
 let lastFruit = ['apple', 'banana', 'mango', 'orange', 'watermelon'];
 lastFruit.pop();
-console.log(lastFruit, "Remove Last Fruit");
+console.log(lastFruit, "Removed Last Fruit");
 //------------------- Question 7-------------------------//
 // Remove the first element from the fruits array using the
 // method and assign it to a variable named firstFruit.
 let firstFruit = ["apple", "banana", "mango", "orange"];
 firstFruit.shift();
-console.log(firstFruit, "Remove First Fruit");
+console.log(firstFruit, "Removed First Fruit");
 //------------------ Question 8------------------------------//
 // Add the element "kiwi" to the beginning of the fruits array
 // using the method.
 let addFirstFruit = ["banana", "mango", "orange"];
 addFirstFruit.unshift("kiwi");
-console.log(addFirstFruit, "Add First Fruit");
+console.log(addFirstFruit, "Added First Fruit");
 //------------------- Question 9--------------------------------//
 // Remove 2 elements from the fruits array starting from index 1
 // using the method.
 let removeFruits = ['kiwi', 'banana', 'mango', 'orange'];
 removeFruits.splice(1, 2);
-console.log(removeFruits, "Remove 2 Fruits From Index 1");
+console.log(removeFruits, "Removed 2 Fruits From Index 1");
 //------------------ Question 10----------------------------------//
 // Insert the elements "pineapple" and "pear" at index 2 of the
 // fruits array using the method.
